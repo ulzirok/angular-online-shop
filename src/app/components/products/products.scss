@@ -11,6 +11,14 @@
   border: 1px solid rgb(199, 196, 196);
 }
 
+.mat-toolbar {
+  // background-color: rgba(137, 43, 226, 0.848);
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
 .image {
   max-width: 200px;
   display: block;
@@ -20,5 +28,10 @@
 .button {
   margin-right: 5px;
   background-color: rgb(217, 75, 170);
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: rgb(65, 214, 65);
   border-radius: 5px;
 }

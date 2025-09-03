@@ -1,11 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, inject, model } from '@angular/core';
+import { MatDialogModule, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+
 
 @Component({
   selector: 'app-dialog-box',
-  imports: [],
+  standalone: true,
+  imports: [MatDialogModule],
   templateUrl: './dialog-box.html',
-  styleUrl: './dialog-box.scss'
+  styleUrls: ['./dialog-box.scss']
 })
 export class DialogBox {
+  readonly dialogRef = inject(MatDialogRef<DialogBox>);
+  readonly data = inject<any>(MAT_DIALOG_DATA);
+  readonly animal = this.data.animal;
 
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+  
+  
 }
