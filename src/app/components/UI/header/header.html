@@ -1,1 +1,15 @@
-<p>header works!</p>
+<mat-toolbar class="header" color="primary">
+  <mat-toolbar-row class="nav-menu">
+    <div class="toolbar no-select" routerLink="">
+      <mat-icon style="margin-right: 5px;">home</mat-icon>
+      <span>Интернет-магазин</span>
+    </div>
+    <span class="example-spacer"></span>
+    <div class="toolbar no-select">
+      <button matButton="tonal" class="toolbar button" routerLink="">Главная</button>
+      <button matButton="tonal" class="toolbar button" routerLink="products">Товары</button>
+      <button matButton="tonal" class="toolbar button" routerLink="basket">Корзина</button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+

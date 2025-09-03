@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mat-card {
+  margin: 4px;
+  border: 1px solid rgb(199, 196, 196);
+}
+
+.image {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto; 
+}
+
+.button {
+  margin-right: 5px;
+  background-color: rgb(217, 75, 170);
+  border-radius: 5px;
+}
