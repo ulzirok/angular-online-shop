@@ -1,1 +1,64 @@
-{}
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook Pro",
+      "price": 2600,
+      "image": "images/10.jpg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256",
+        "memory": "156",
+        "display": "Retine"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Iphone 14 Pro Max",
+      "price": 1000,
+      "image": "images/5.jpg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "200",
+        "memory": "236",
+        "display": "Retine"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Ipad Pro",
+      "price": 1200,
+      "image": "images/0.jpg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "300",
+        "memory": "9876",
+        "display": "Retine"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Iphone 16 Pro Max",
+      "price": 1600,
+      "image": "images/1.jpg",
+      "configure": {
+        "chip": "J1",
+        "SSD": "364",
+        "memory": "2422",
+        "display": "Ret"
+      }
+    },
+    {
+      "id": 5,
+      "title": "MacBook Air",
+      "price": 2300,
+      "image": "images/4.jpg",
+      "configure": {
+        "chip": "L1",
+        "SSD": "7346",
+        "memory": "956",
+        "display": "tine"
+      }
+    }
+  ]
+}
