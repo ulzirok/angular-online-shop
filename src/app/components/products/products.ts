@@ -34,10 +34,20 @@ export class Products implements OnInit {
   openDialog(): void {
     let dialogConfig = new MatDialogConfig()
     dialogConfig.width = '500px';
-    dialogConfig.data = {
-      id: 1
-    }
+    dialogConfig.disableClose = true
+    dialogConfig.data = this.products
+    
     const dialogRef = this.dialog.open(DialogBox, dialogConfig);
+    
+    dialogRef.afterClosed().subscribe((data) => 
+      this.postData(data)
+    )
+  }
+  
+  postData(data: IProducts) {
+    console.log(data);
+    
+    this.productsService.postProduct(data).subscribe((data) => this.products.push(data))
   }
   
   ngOnDestroy(): void {
