@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "MacBook Pro",
       "price": 2600,
       "image": "images/10.jpg",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Iphone 14 Pro Max",
       "price": 1000,
       "image": "images/5.jpg",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Ipad Pro",
       "price": 1200,
       "image": "images/0.jpg",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Iphone 16 Pro Max",
       "price": 1600,
       "image": "images/1.jpg",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "MacBook Air",
       "price": 2300,
       "image": "images/4.jpg",
