@@ -17,9 +17,17 @@
       <p>Цена: {{product.price | currency}}</p>
     </mat-card-content>
     <mat-card-actions>
-      <button class="button" mat-raised-button>В корзину</button>
+      <button class="button" mat-raised-button (click)="addToBasket(product)" type="button">В корзину</button>
       <button class="button" mat-raised-button [routerLink]="['/product', product.id]">Подробнее</button>
+      
+      <button class="button" matButton [matMenuTriggerFor]="menu">Редактировать</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="deleteItem(product.id)">Удалить</button>
+        <button mat-menu-item (click)="openDialog(product)">Изменить</button>
+      </mat-menu>
     </mat-card-actions>
+    
+
   </mat-card>
 
 

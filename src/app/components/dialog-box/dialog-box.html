@@ -24,6 +24,6 @@
     <input formControlName="display" matInput>
   </mat-form-field>
   
-  <button class="button" mat-raised-button style="margin-right: 5px;" type="submit">Добавить товар</button>
-  <button class="button" mat-raised-button (click)="onNoClick()">Отмена</button>
+  <button class="button" mat-raised-button style="margin-right: 5px;" type="submit">{{isNew ? 'Добавить товар' : 'Обновить'}}</button>
+  <button class="button" mat-raised-button (click)="onNoClick()" type="button">Отмена</button>
 </form>
