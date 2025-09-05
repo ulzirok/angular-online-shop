@@ -1,1 +1,24 @@
-<p>basket works!</p>
+<div class="container">
+  <mat-card class="example-card mat-card" *ngFor="let item of basket">
+    <mat-card-header>
+      <mat-card-title>{{item.title}}</mat-card-title>
+    </mat-card-header>
+    <img class="image" mat-card-image src="{{item.image}}" alt="Product">
+    <mat-card-content>
+      <p>Цена: {{item.price | currency}}</p>
+      <p>Chip: {{item.configure.chip}}</p>
+      <p>SSD: {{item.configure.SSD}}</p>
+      <p>Display: {{item.configure.display}}</p>
+      <p>Memory: {{item.configure.memory}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button" mat-raised-button (click)="minusItemFromBasket(item)">-</button>
+      <p>Кол-во: {{item.quantity}}</p>
+      <button class="button" mat-raised-button (click)="plusItemToBasket(item)">+</button>
+    </mat-card-actions>
+  </mat-card>
+
+
+</div>
+
+

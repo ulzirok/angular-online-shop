@@ -59,6 +59,43 @@
         "memory": "956",
         "display": "tine"
       }
+    },
+    {
+      "id": "3394"
+    },
+    {
+      "id": "1dd8"
+    },
+    {
+      "id": "40fa"
+    }
+  ],
+  "basket": [
+    {
+      "id": "1",
+      "title": "MacBook Pro",
+      "price": 2600,
+      "image": "images/10.jpg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256",
+        "memory": "156",
+        "display": "Retine"
+      },
+      "quantity": 4
+    },
+    {
+      "id": "2",
+      "title": "Iphone 14 Pro Max",
+      "price": 1000,
+      "image": "images/5.jpg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "200",
+        "memory": "236",
+        "display": "Retine"
+      },
+      "quantity": 5
     }
   ]
 }
