@@ -1,0 +1,1 @@
+html,body{height:100%}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif}.header{position:fixed;top:0;z-index:100}.nav-menu{background-color:#892be2d8}.footer{position:fixed;bottom:0;background-color:#892be2d8;z-index:100}router-outlet{display:block;padding-top:65px}
